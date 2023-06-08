@@ -96,7 +96,6 @@ img {
 .header-menu {
   display: flex;
   gap: 40px;
-  padding-right: 332px;
 }
 .header-addres-list {
   display: flex;
@@ -105,8 +104,6 @@ img {
 .header-navigation {
   display: flex;
   align-items: center;
-  flex-grow: 1;
-  justify-content: space-between;
 }
 .header-conteiner {
   display: flex;
@@ -123,6 +120,7 @@ img {
   display: flex;
   align-items: center;
   margin-right: 76px;
+  text-transform: uppercase;
 }
 .header-logo-span {
   font-weight: 800;
@@ -145,6 +143,7 @@ img {
 
 .header-addres {
   font-style: normal;
+  margin-left: auto;
 }
 .header-addres-link:hover,
 .header-addres-link:focus {
@@ -169,7 +168,6 @@ img {
 .hero {
   background-color: #2e2f42;
   padding: 188px 0;
-  margin-bottom: 120px;
 }
 .hero-container {
   background-color: #2e2f42;
@@ -231,7 +229,6 @@ img {
 }
 /**-------------PRODUCTS-------------- */
 .products {
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 .products-title {
@@ -255,13 +252,12 @@ img {
 
 .team-tittle {
   margin: 0 auto;
-  padding-top: 120px;
+
   margin-bottom: 72px;
 }
 .team-list {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 .team-item {
   background-color: #ffffff;
